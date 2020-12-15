@@ -54,12 +54,12 @@
 		C42D79CC25875310004DA970 /* PickYourColor2 */ = {
 			isa = PBXGroup;
 			children = (
-				C42D79CD25875310004DA970 /* PickYourColor2App.swift */,
 				C42D79CF25875310004DA970 /* MainView.swift */,
+				C42D79DE2587A100004DA970 /* SliderView.swift */,
+				C42D79CD25875310004DA970 /* PickYourColor2App.swift */,
 				C42D79D125875312004DA970 /* Assets.xcassets */,
 				C42D79D625875312004DA970 /* Info.plist */,
 				C42D79D325875312004DA970 /* Preview Content */,
-				C42D79DE2587A100004DA970 /* SliderView.swift */,
 			);
 			path = PickYourColor2;
 			sourceTree = "<group>";

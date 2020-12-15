@@ -32,8 +32,12 @@ struct SliderView: View {
             Text("\(lround(sliderValue))")
                 .foregroundColor(Color.white)
                 .frame(width: 45, alignment: .center)
+            
+            
             Slider(value: $sliderValue, in: 0...255).frame(width: 265)
                 .accentColor(color)
+            
+            
             TextField("", text: valueString, onEditingChanged: {_ in
                 if sliderValue > 255 {
                     sliderValue = 0
